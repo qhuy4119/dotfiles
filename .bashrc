@@ -192,7 +192,7 @@ if [ -f "$LFCD" ]; then
     source $LFCD
 fi
 
-export PATH=/home/huy/.local/bin:$PATH
+export PATH=$PATH:~/.local/bin
 export VISUAL=vim
 export EDITOR=vim
 export JDK_HOME="/usr/lib/jvm/java-17-openjdk"
